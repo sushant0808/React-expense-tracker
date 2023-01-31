@@ -8,7 +8,7 @@ const AddTransaction = () => {
     const [amount,setAmount] = useState(0);
 
     const {transactions,addTransaction} = useContext(GlobalContext);
-    const lastTransactionId = transactions[transactions.length - 1].id;
+    // const lastTransactionId = transactions[transactions.length - 1].id;
     return (
         <>
             <h3>Add new transaction</h3>
